@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2026-06-04
+
+- feat: improve progress output handling
+
 ## 2026-06-03
 
 - feat: improve dry-run mode handling
