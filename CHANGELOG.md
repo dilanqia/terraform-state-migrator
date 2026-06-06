@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2026-06-06
+
+- docs: add API documentation
+
 ## 2026-06-05
 
 - feat: add validation logic
