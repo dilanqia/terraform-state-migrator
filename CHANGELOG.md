@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2026-06-07
+
+- fix: minor bug fixes
+
 ## 2026-06-06
 
 - docs: add API documentation

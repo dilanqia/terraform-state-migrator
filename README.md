@@ -107,3 +107,5 @@ Contributions welcome! Please open an issue or PR.
 <!-- history: 2026-06-05 -->
 
 <!-- history: 2026-06-06 -->
+
+<!-- history: 2026-06-07 -->
