@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "terraform-state-migrator"
+version = "0.1.0"
+description = "CLI tool to safely migrate Terraform state between backends with validation"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3>=1.28",
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-mock>=3.10",
+    "moto[s3]>=4.2",
+]
+
+[project.scripts]
+tf-migrate = "migrator.cli:main"
